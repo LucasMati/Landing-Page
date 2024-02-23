@@ -76,6 +76,7 @@ button{
     height: 40px;
     margin-top: 10px;
     font-weight: bold;
+    font-size: 16px;
 }
 header{
     display: flex;
@@ -178,7 +179,7 @@ justify-content: center;}
     margin: 100px auto;
     color: #F9FAF8;
     padding: 20px 50px;
-    border-radius: 5px;
+    border-radius: 7px;
     width: 800px;
     height: 100px;
     gap: 50px;
@@ -190,6 +191,13 @@ justify-content: center;}
     align-items: flex-start;
 }
 
+.action-container button{
+    border-color:#F9FAF8
+}
+#action-text{
+    font-size:  24px ;
+    font-weight: bolder;
+}
 footer{
     background-color: #1F2937;
     color: #F9FAF8;
